@@ -393,4 +393,6 @@ app.post('/rules/:id/:name', (req, res) => {
   }
 });
 
-app.listen(61234);
+app.listen(61234, () => {
+  console.log(`Server is running at http://localhost:61234`);
+});
